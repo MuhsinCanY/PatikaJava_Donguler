@@ -10,9 +10,10 @@ public class UsluSayıHesaplayanProgram {
         int x = sc.nextInt();
         System.out.print("Exponent : ");
         int y = sc.nextInt();
-        int i = 1;
+        
         int total = 1;
-        for (i=1;i<=y;i++) {
+        
+        for (int i=1;i<=y;i++) {
             total*=x;
             //System.out.println(total);
         }
